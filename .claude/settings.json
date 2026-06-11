@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "jovipost": {
+      "command": "node",
+      "args": ["./packages/post/dist/mcp-server.js"],
+      "env": {
+        "JOVIJOB_COOKIE": ""
+      }
+    },
+    "jovipost-red": {
+      "command": "node",
+      "args": ["./packages/red/dist/mcp-server.js"]
+    },
+    "jovipost-wx": {
+      "command": "node",
+      "args": ["./packages/wx/dist/mcp-server.js"]
+    }
+  }
+}
